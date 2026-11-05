@@ -1,12 +1,9 @@
 class Hake < Formula
   desc "Vim-style terminal editor in one C file, with an AI pane built in"
   homepage "https://github.com/mithraeums/hako-edit"
-  version "0.2.0"
   license "GPL-3.0-or-later"
 
-  head do
-    url "https://github.com/mithraeums/hako-edit.git", branch: "main"
-  end
+  head "https://github.com/mithraeums/hako-edit.git", branch: "main"
 
   on_macos do
     url "https://github.com/mithraeums/hako-edit/releases/download/v0.2.0/hake-macos-universal.tar.gz"

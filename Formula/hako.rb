@@ -1,29 +1,26 @@
 class Hako < Formula
   desc "Coding agent in one C file: local models or 14 cloud providers"
   homepage "https://github.com/mithraeums/hako-code"
-  version "0.3.0"
-  license "GPL-3.0-only"
+  license "GPL-3.0-or-later"
 
-  head do
-    url "https://github.com/mithraeums/hako-code.git", branch: "main"
-  end
+  head "https://github.com/mithraeums/hako-code.git", branch: "main"
 
   # hako shells out to the curl program for HTTPS
   uses_from_macos "curl"
 
   on_macos do
-    url "https://github.com/mithraeums/hako-code/releases/download/v0.3.0/hako-code-macos-universal.tar.gz"
-    sha256 "f9d165db4b2a9ad215c9290f076efc3871d680c6b0fbbfbb52a72eb201c3c3cb"
+    url "https://github.com/mithraeums/hako-code/releases/download/v0.3.3/hako-code-macos-universal.tar.gz"
+    sha256 "15ad5a91e148b7a7704376277d33b01d35c8fc30ab77a3f29e1f5c5df6277fb5"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mithraeums/hako-code/releases/download/v0.3.0/hako-code-linux-x86_64.tar.gz"
-      sha256 "cc71f9a4838df87d511f325ded7be44fcb48b725ac441e5f425d2dd97e7f9823"
+      url "https://github.com/mithraeums/hako-code/releases/download/v0.3.3/hako-code-linux-x86_64.tar.gz"
+      sha256 "fe42a1e8d2d0a6f21b2ea337b5b241a655e0c34f254f7b04b3cfadd359352ac6"
     end
     on_arm do
-      url "https://github.com/mithraeums/hako-code/releases/download/v0.3.0/hako-code-linux-arm64.tar.gz"
-      sha256 "adff51aa16f8a78f7169d299aa0d03203d50468418e48203705a1f02645fe19f"
+      url "https://github.com/mithraeums/hako-code/releases/download/v0.3.3/hako-code-linux-arm64.tar.gz"
+      sha256 "c11f70f99b7e3e80fcd27fdacc56923f6b805960ddb646c32ae54411ac8e3eaf"
     end
   end
 

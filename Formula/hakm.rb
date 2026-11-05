@@ -1,12 +1,9 @@
 class Hakm < Formula
   desc "LLM inference engine in plain C, no llama.cpp or Python"
   homepage "https://github.com/mithraeums/hako"
-  version "0.0.6"
-  license "GPL-3.0-only"
+  license "GPL-3.0-or-later"
 
-  head do
-    url "https://github.com/mithraeums/hako.git", branch: "main"
-  end
+  head "https://github.com/mithraeums/hako.git", branch: "main"
 
   on_macos do
     url "https://github.com/mithraeums/hako/releases/download/v0.0.6/hakm-macos-universal.tar.gz"
