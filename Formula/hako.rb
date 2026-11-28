@@ -9,18 +9,18 @@ class Hako < Formula
   uses_from_macos "curl"
 
   on_macos do
-    url "https://github.com/mithraeums/hako-code/releases/download/v0.4.3/hako-code-macos-universal.tar.gz"
-    sha256 "25c5e38e1b80157fa8bffc564984064617b108a3ad510f1733566681f10c8f07"
+    url "https://github.com/mithraeums/hako-code/releases/download/v0.4.4/hako-code-macos-universal.tar.gz"
+    sha256 "0b67ea852370016d8ba49a31cd1214e86d19ad5a491dcaf1594aca6bac630085"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mithraeums/hako-code/releases/download/v0.4.3/hako-code-linux-x86_64.tar.gz"
-      sha256 "8b2a09183e76fbc50e17bc136e10c74253fe0db895939abe182821b07cf18bc7"
+      url "https://github.com/mithraeums/hako-code/releases/download/v0.4.4/hako-code-linux-x86_64.tar.gz"
+      sha256 "8324011527c2e6c54e4a13a0c97f7304a25ca33f221b22b199b569006490bc3c"
     end
     on_arm do
-      url "https://github.com/mithraeums/hako-code/releases/download/v0.4.3/hako-code-linux-arm64.tar.gz"
-      sha256 "5682b367952989b1ffcc8814d1e3692bfb8d508b479895d7b0dea9a6e0465459"
+      url "https://github.com/mithraeums/hako-code/releases/download/v0.4.4/hako-code-linux-arm64.tar.gz"
+      sha256 "818a8efbec1021442efe6488e7d3bd10e055e175132f7b873c5c2acceedaea77"
     end
   end
 

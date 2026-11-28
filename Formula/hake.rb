@@ -6,18 +6,18 @@ class Hake < Formula
   head "https://github.com/mithraeums/hako-edit.git", branch: "main"
 
   on_macos do
-    url "https://github.com/mithraeums/hako-edit/releases/download/v0.2.1/hake-macos-universal.tar.gz"
-    sha256 "86d7b0a6231bf19b70f0a62f417b45fa7b64edc3ca545c168a9c88ec8e14be3a"
+    url "https://github.com/mithraeums/hako-edit/releases/download/v0.2.2/hake-macos-universal.tar.gz"
+    sha256 "da6d115ec59afe73f61ea99f978cfbed77e87d13b0b6284f9580b6aafb908a4a"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mithraeums/hako-edit/releases/download/v0.2.1/hake-linux-x86_64.tar.gz"
-      sha256 "52b7dcfe9acb55c61a63e08a4a922a6fdce65c825436efa015e937ca0ccbb035"
+      url "https://github.com/mithraeums/hako-edit/releases/download/v0.2.2/hake-linux-x86_64.tar.gz"
+      sha256 "2dec4d166339740029303be9bc428d2636ba9a20b02cb59fafad9cd745d7f4b3"
     end
     on_arm do
-      url "https://github.com/mithraeums/hako-edit/releases/download/v0.2.1/hake-linux-arm64.tar.gz"
-      sha256 "de7cd3a8e4a1f62a76182798f21dcfb6cc42143936c0c15dbf715b1ad8526cb3"
+      url "https://github.com/mithraeums/hako-edit/releases/download/v0.2.2/hake-linux-arm64.tar.gz"
+      sha256 "9de9f12a3f92ce725f8722833cb65858e6467df15768cbe5c9417df7b0d04e01"
     end
   end
 
